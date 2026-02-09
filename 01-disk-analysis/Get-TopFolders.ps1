@@ -1,14 +1,9 @@
-# Get-TopFolders.ps1
-# in questo video: Analisi occupazione disco Home Utente (Top 5)
-
 # ==============================================================================
-# Script: Get-TopFolders.ps1
-# Autore: Massimo Vanin (@M4xV) - Debug Magazine
-# Data: 9 Febbraio 2026, 12:00
-# Descrizione: Analisi top 5 cartelle per dimensione (Home Utente)
-# YouTube: https://youtube.com/@massimo-vanin
+# DEBUG MAGAZINE 🐞 | Massimo Vanin (@M4xV) | 09/02/2026
+# Link: https://youtube.com/@massimo-vanin
+# ⚠️ DISCLAIMER: Uso "as-is". Didattico. Testare in Sandbox. No responsabilità.
 # ==============================================================================
-# in questo video: Analisi occupazione disco rapida per sistemi Windows/Linux
+# in questo video: Analisi rapida occupazione disco Home (Top 5)
 # ==============================================================================
 
 $targetPath = $env:USERPROFILE
