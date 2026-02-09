@@ -1,6 +1,4 @@
-# ==============================================================================
-# 🚀 COME ESEGUIRE SE APPARE "ERRORE DI PROTEZIONE":
-# Se Windows blocca lo script, lancia questo comando per sbloccarlo solo per 
-# questa sessione (scelta consigliata e sicura):
-# powershell.exe -ExecutionPolicy Bypass -File .\Get-TopFolders.ps1
-# ==============================================================================
+Se ricevi l'errore "L'esecuzione di script è disabilitata nel sistema", non cambiare le impostazioni globali del PC (scelta insicura). 
+Usa questo comando per forzare l'esecuzione solo per questo script:
+
+**powershell.exe -ExecutionPolicy Bypass -File .\Get-TopFolders.ps1**
