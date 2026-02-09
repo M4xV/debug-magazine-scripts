@@ -2,6 +2,10 @@
 # DEBUG MAGAZINE 🐞 | Massimo Vanin (@M4xV) | 09/02/2026
 # Link: https://youtube.com/@massimo-vanin
 # ⚠️ DISCLAIMER: Uso "as-is". Didattico. Testare in Sandbox. No responsabilità.
+#
+# 🚀 QUICK LAUNCH (One-Liner): 
+# gci $env:USERPROFILE -Dir | % { [PSCustomObject]@{Folder=$_.Name; SizeGB=[Math]::Round(((gci $_.FullName -Rec -File -EA 0 | measure Length -Sum).Sum / 1GB), 2)} } | sort SizeGB -Desc | select -First 5
+#
 # ==============================================================================
 # in questo video: Analisi rapida occupazione disco Home (Top 5)
 # ==============================================================================
